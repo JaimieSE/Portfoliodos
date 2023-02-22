@@ -3,7 +3,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Portfolio", page_icon=":smirk_cat:", layout="wide")
 
-st.header("A Student Trying Her Best In The World")
+st.header("A Student Trying Her Best In This World")
 
 st.write("---")
 st.subheader("A Brief Introduction to this 'passion project'")
