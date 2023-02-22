@@ -85,6 +85,9 @@ txt = st.text_area
 st.write("The terminal stated")
 st.code("syntaxerror: Invalid syntax")
 st.write("However the program ran perfectly locally. So I deployed it, which eventually prompted me an issue with my image files. ")
+
+st.write("---")
+st.subheader("Check this out")
 contact_form ="""<form action="https://formsubmit.co/d4pper.i0@gmail.com" method="POST">
      <input type="text" name="name" placeholder= "Your name" required>
      <input type="email" name="email" placeholder= "Your real/fake email" required>
