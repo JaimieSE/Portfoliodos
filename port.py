@@ -67,8 +67,12 @@ st.write("This was a design project that I undertook to try my hand at visualisi
 st.write("To see the whole design in action, you can click [here](https://www.figma.com/proto/howzl49kutxqNl7auywbI5/Project1?node-id=1%3A2&starting-point-node-id=1%3A2) to view")
 st.write("_You might require an account to veiw it unfortunately_ :cry:")
 
+st.write("---")
+
 st.subheader("My little coffee opinion generator (Had a little coding fun :smiley:)")
 st.write("[Please take everything in this little survey as a joke](https://coffeemachine.streamlit.app/)")
+
+st.write("---")
 
 st.subheader("Portfolio/summary")
 st.write("[Portfolio document](https://docs.google.com/document/d/12zTsrW1emw6DRS4-2sx6G9qtgmDf4f1Ql2L1AMyftOs/edit?usp=sharing)")
