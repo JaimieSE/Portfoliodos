@@ -1,16 +1,5 @@
 import streamlit as st
-import requests
-from streamlit_lottie import st_lottie
- 
-#To load Lottie stuff 
 
-def load_lottieurl(url):
-  r = requests.get(url)
-  if r.status_code != 200:
-   return None 
-  return r.json()
-
-lottie_present = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_v9riyrep.json")
 
 st.set_page_config(page_title="Portfolio", page_icon=":smirk_cat:", layout="wide")
 
@@ -69,8 +58,6 @@ computing which really expanded my perspective of the world. So I realised that 
 website appears to be lackluster - it is my first time doing a hands on coding project with the help of youtube tutorials, online forums and hours of troubleshooting by exploring 
 every function!""")
 
-with image_column:
-  st_lottie(lottie_present)
 
 st.write("---")
 
