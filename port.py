@@ -91,7 +91,7 @@ st.subheader("Check this out")
 contact_form ="""<form action="https://formsubmit.co/d4pper.i0@gmail.com" method="POST">
      <input type="text" name="name" placeholder= "Your name" required>
      <input type="email" name="email" placeholder= "Your real/fake email" required>
-     <textarea name="message" placeholder="Advise, Opinions, Messages welcomed"></textarea>
+     <textarea name="message" placeholder="Anything is welcomed"></textarea>
      <button type="submit">Send</button>
      </form>"""
 
@@ -101,4 +101,4 @@ st.container()
 st.empty()
 st.text("I tried styling it, but I'm still figuring that out.")
 
-st.write("Thats all for this website, I'll be creating more (better) projects along the way. I hope you consider my application :heart:")
+st.write("Thats all for this website, I'll be creating more (better) projects along the way. I hope you consider my application! :heart:")
