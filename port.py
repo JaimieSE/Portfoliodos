@@ -99,6 +99,6 @@ st.markdown(contact_form, unsafe_allow_html=True)
 
 st.container()
 st.empty()
-st.text("I tried styling it, but I'm still figuring that out.")
-
-st.write("Thats all for this website, I'll be creating more (better) projects along the way. I hope you consider my application! :heart:")
+st.write("I tried styling it, but I'm still figuring that out.")
+st.write("---")
+st.write("Well thats all for this website, I'll be creating more (better) projects along the way. I hope you consider my application! :heart:")
